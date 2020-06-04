@@ -1,0 +1,59 @@
+/* Sticky Footer Classes */
+*{
+  color: black;
+  scroll-behavior: smooth; /* ensure smooth scrolling */
+  transition-duration: 400ms; /* set default timing for all elements */
+}
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* style the header and make it stand out */
+#CTA{
+  background-image: url("./images/placeimg_1000_600_arch.jpg");
+  color: white;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+}
+#CTA h1{
+  color: white;
+  font-size: 6em;
+  font-weight: bolder;
+  line-height: 150px;
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+  text-transform: uppercase;
+  min-height: 300px;
+}
+
+#skills .progress{
+  margin-bottom: 10px;
+}
+
+#portfolio .row, #contact .row{
+  margin-bottom: 30px;
+}
+
+
+#contact{
+  margin: 20px auto 50px;
+}
+
+form{
+  padding: 0;
+}
+
+footer small{
+  color: white;
+}
